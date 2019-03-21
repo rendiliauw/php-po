@@ -1,0 +1,22 @@
+RewriteEngine On
+RewriteRule ^index.php index.php [NC,L]
+RewriteRule ^input_po input_po.php [NC,L]
+RewriteRule ^mst_barang_view mst_barang_view.php [NC,L]
+RewriteRule ^mst_mg_view mst_mg_view.php [NC,L]
+RewriteRule ^mst_setting_view mst_setting_view.php [NC,L]
+RewriteRule ^mst_supplier_view mst_supplier_view.php [NC,L]
+RewriteRule ^mst_unit_view mst_unit_view.php [NC,L]
+RewriteRule ^transaksi_header_view transaksi_header_view.php [NC,L]
+RewriteRule ^transaksi_detail_view transaksi_detail_view.php [NC,L]
+RewriteRule ^purchase_order purchase_order.php [NC,L]
+RewriteRule ^invoice_print invoice_print.php [NC,L]
+RewriteRule ^print_po print_po.php [NC,L]
+RewriteRule ^print_void_po print_void_po.php [NC,L]
+RewriteRule ^void_report void_report.php [NC,L]
+RewriteRule ^po_void po_void.php [NC,L]
+RewriteRule ^login login.php [NC,L]
+RewriteRule ^logout logout.php [NC,L]
+
+
+
+
